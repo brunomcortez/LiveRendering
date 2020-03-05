@@ -13,6 +13,7 @@
 		ED6900FC2410869100C52933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6900FA2410869100C52933 /* Main.storyboard */; };
 		ED6900FE2410869900C52933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6900FD2410869900C52933 /* Assets.xcassets */; };
 		ED6901012410869900C52933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6900FF2410869900C52933 /* LaunchScreen.storyboard */; };
+		ED690109241089B000C52933 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED690108241089B000C52933 /* CustomImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		ED6900FD2410869900C52933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED6901002410869900C52933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED6901022410869900C52933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED690108241089B000C52933 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				ED6900FD2410869900C52933 /* Assets.xcassets */,
 				ED6900FF2410869900C52933 /* LaunchScreen.storyboard */,
 				ED6901022410869900C52933 /* Info.plist */,
+				ED690108241089B000C52933 /* CustomImageView.swift */,
 			);
 			path = LiveRendering;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED6900F92410869100C52933 /* ViewController.swift in Sources */,
+				ED690109241089B000C52933 /* CustomImageView.swift in Sources */,
 				ED6900F52410869100C52933 /* AppDelegate.swift in Sources */,
 				ED6900F72410869100C52933 /* SceneDelegate.swift in Sources */,
 			);
